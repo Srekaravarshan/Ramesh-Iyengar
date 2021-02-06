@@ -1,0 +1,732 @@
+define(['dart_sdk', 'packages/flutter/src/foundation/key.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/rameshiyengar/models/constants.dart', 'packages/flutter/src/painting/edge_insets.dart', 'packages/flutter/src/rendering/flex.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/rameshiyengar/models/extensions.dart', 'packages/flutter/src/widgets/implicit_animations.dart', 'packages/flutter/src/painting/box_decoration.dart', 'packages/flutter/src/painting/decoration_image.dart', 'packages/flutter/src/painting/image_resolution.dart', 'packages/flutter/src/painting/box_fit.dart', 'packages/flutter/src/painting/border_radius.dart', 'packages/flutter/src/painting/gradient.dart', 'packages/flutter/src/painting/alignment.dart', 'packages/flutter/src/material/colors.dart', 'packages/google_fonts/src/google_fonts_base.dart', 'packages/flutter/src/material/icons.dart'], (function load__packages__rameshiyengar__widgets__contact_dart(dart_sdk, packages__flutter__src__foundation__key$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__rameshiyengar__models__constants$46dart, packages__flutter__src__painting__edge_insets$46dart, packages__flutter__src__rendering__flex$46dart, packages__flutter__src__material__icon_button$46dart, packages__rameshiyengar__models__extensions$46dart, packages__flutter__src__widgets__implicit_animations$46dart, packages__flutter__src__painting__box_decoration$46dart, packages__flutter__src__painting__decoration_image$46dart, packages__flutter__src__painting__image_resolution$46dart, packages__flutter__src__painting__box_fit$46dart, packages__flutter__src__painting__border_radius$46dart, packages__flutter__src__painting__gradient$46dart, packages__flutter__src__painting__alignment$46dart, packages__flutter__src__material__colors$46dart, packages__google_fonts__src__google_fonts_base$46dart, packages__flutter__src__material__icons$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const async = dart_sdk.async;
+  const _interceptors = dart_sdk._interceptors;
+  const ui = dart_sdk.ui;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const key = packages__flutter__src__foundation__key$46dart.src__foundation__key;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const container = packages__flutter__src__widgets__widget_span$46dart.src__widgets__container;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const text = packages__flutter__src__widgets__widget_span$46dart.src__widgets__text;
+  const constants = packages__rameshiyengar__models__constants$46dart.models__constants;
+  const edge_insets = packages__flutter__src__painting__edge_insets$46dart.src__painting__edge_insets;
+  const flex = packages__flutter__src__rendering__flex$46dart.src__rendering__flex;
+  const ink_well = packages__flutter__src__material__icon_button$46dart.src__material__ink_well;
+  const extensions = packages__rameshiyengar__models__extensions$46dart.models__extensions;
+  const implicit_animations = packages__flutter__src__widgets__implicit_animations$46dart.src__widgets__implicit_animations;
+  const box_decoration = packages__flutter__src__painting__box_decoration$46dart.src__painting__box_decoration;
+  const decoration_image = packages__flutter__src__painting__decoration_image$46dart.src__painting__decoration_image;
+  const image_resolution = packages__flutter__src__painting__image_resolution$46dart.src__painting__image_resolution;
+  const box_fit = packages__flutter__src__painting__box_fit$46dart.src__painting__box_fit;
+  const border_radius = packages__flutter__src__painting__border_radius$46dart.src__painting__border_radius;
+  const gradient = packages__flutter__src__painting__gradient$46dart.src__painting__gradient;
+  const alignment = packages__flutter__src__painting__alignment$46dart.src__painting__alignment;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const google_fonts = packages__google_fonts__src__google_fonts_base$46dart.google_fonts;
+  const icons = packages__flutter__src__material__icons$46dart.src__material__icons;
+  var contact = Object.create(dart.library);
+  var KeyN = () => (KeyN = dart.constFn(dart.nullable(key.Key)))();
+  var _LocationL = () => (_LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))();
+  var VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
+  var boolL = () => (boolL = dart.constFn(dart.legacy(core.bool)))();
+  var boolLToNull = () => (boolLToNull = dart.constFn(dart.fnType(core.Null, [boolL()])))();
+  var FutureOfNull = () => (FutureOfNull = dart.constFn(async.Future$(core.Null)))();
+  var FutureLOfNull = () => (FutureLOfNull = dart.constFn(dart.legacy(FutureOfNull())))();
+  var VoidToFutureLOfNull = () => (VoidToFutureLOfNull = dart.constFn(dart.fnType(FutureLOfNull(), [])))();
+  var ColorL = () => (ColorL = dart.constFn(dart.legacy(ui.Color)))();
+  var JSArrayOfColorL = () => (JSArrayOfColorL = dart.constFn(_interceptors.JSArray$(ColorL())))();
+  var WidgetL = () => (WidgetL = dart.constFn(dart.legacy(framework.Widget)))();
+  var JSArrayOfWidgetL = () => (JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(WidgetL())))();
+  const CT = Object.create(null);
+  var L0 = "package:rameshiyengar/widgets/contact.dart";
+  dart.defineLazy(CT, {
+    get C2() {
+      return C2 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 28,
+        [_Location_line]: 29,
+        [_Location_file]: null
+      });
+    },
+    get C1() {
+      return C1 = dart.constList([C2 || CT.C2], _LocationL());
+    },
+    get C0() {
+      return C0 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C1 || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 29,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C5() {
+      return C5 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "duration",
+        [_Location_column]: 31,
+        [_Location_line]: 43,
+        [_Location_file]: null
+      });
+    },
+    get C6() {
+      return C6 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 31,
+        [_Location_line]: 44,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C7 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 31,
+        [_Location_line]: 45,
+        [_Location_file]: null
+      });
+    },
+    get C8() {
+      return C8 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 31,
+        [_Location_line]: 46,
+        [_Location_file]: null
+      });
+    },
+    get C4() {
+      return C4 = dart.constList([C5 || CT.C5, C6 || CT.C6, C7 || CT.C7, C8 || CT.C8], _LocationL());
+    },
+    get C3() {
+      return C3 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C4 || CT.C4,
+        [_Location_name]: null,
+        [_Location_column]: 36,
+        [_Location_line]: 42,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C11() {
+      return C11 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onHover",
+        [_Location_column]: 29,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C12() {
+      return C12 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onTap",
+        [_Location_column]: 29,
+        [_Location_line]: 41,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C13 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 29,
+        [_Location_line]: 42,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C10 = dart.constList([C11 || CT.C11, C12 || CT.C12, C13 || CT.C13], _LocationL());
+    },
+    get C9() {
+      return C9 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C10 || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 35,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C16() {
+      return C16 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 47,
+        [_Location_line]: 76,
+        [_Location_file]: null
+      });
+    },
+    get C17() {
+      return C17 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 39,
+        [_Location_line]: 77,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C15 = dart.constList([C16 || CT.C16, C17 || CT.C17], _LocationL());
+    },
+    get C14() {
+      return C14 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C15 || CT.C15,
+        [_Location_name]: null,
+        [_Location_column]: 42,
+        [_Location_line]: 76,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C20() {
+      return C20 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "alignment",
+        [_Location_column]: 35,
+        [_Location_line]: 75,
+        [_Location_file]: null
+      });
+    },
+    get C21() {
+      return C21 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 35,
+        [_Location_line]: 76,
+        [_Location_file]: null
+      });
+    },
+    get C19() {
+      return C19 = dart.constList([C20 || CT.C20, C21 || CT.C21], _LocationL());
+    },
+    get C18() {
+      return C18 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C19 || CT.C19,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 74,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C24() {
+      return C24 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "duration",
+        [_Location_column]: 31,
+        [_Location_line]: 59,
+        [_Location_file]: null
+      });
+    },
+    get C25() {
+      return C25 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 31,
+        [_Location_line]: 60,
+        [_Location_file]: null
+      });
+    },
+    get C26() {
+      return C26 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 31,
+        [_Location_line]: 61,
+        [_Location_file]: null
+      });
+    },
+    get C27() {
+      return C27 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 31,
+        [_Location_line]: 62,
+        [_Location_file]: null
+      });
+    },
+    get C28() {
+      return C28 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 31,
+        [_Location_line]: 63,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C29 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 74,
+        [_Location_file]: null
+      });
+    },
+    get C23() {
+      return C23 = dart.constList([C24 || CT.C24, C25 || CT.C25, C26 || CT.C26, C27 || CT.C27, C28 || CT.C28, C29 || CT.C29], _LocationL());
+    },
+    get C22() {
+      return C22 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C23 || CT.C23,
+        [_Location_name]: null,
+        [_Location_column]: 36,
+        [_Location_line]: 58,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C32() {
+      return C32 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "bottom",
+        [_Location_column]: 29,
+        [_Location_line]: 56,
+        [_Location_file]: null
+      });
+    },
+    get C33() {
+      return C33 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "left",
+        [_Location_column]: 29,
+        [_Location_line]: 57,
+        [_Location_file]: null
+      });
+    },
+    get C34() {
+      return C34 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 29,
+        [_Location_line]: 58,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C31 = dart.constList([C32 || CT.C32, C33 || CT.C33, C34 || CT.C34], _LocationL());
+    },
+    get C30() {
+      return C30 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C31 || CT.C31,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 55,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C37() {
+      return C37 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 25,
+        [_Location_line]: 34,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C36 = dart.constList([C37 || CT.C37], _LocationL());
+    },
+    get C35() {
+      return C35 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C36 || CT.C36,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 33,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C40() {
+      return C40 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 32,
+        [_Location_line]: 84,
+        [_Location_file]: null
+      });
+    },
+    get C39() {
+      return C39 = dart.constList([C40 || CT.C40], _LocationL());
+    },
+    get C38() {
+      return C38 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C39 || CT.C39,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 84,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C43() {
+      return C43 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 27,
+        [_Location_line]: 86,
+        [_Location_file]: null
+      });
+    },
+    get C44() {
+      return C44 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 27,
+        [_Location_line]: 88,
+        [_Location_file]: null
+      });
+    },
+    get C42() {
+      return C42 = dart.constList([C43 || CT.C43, C44 || CT.C44], _LocationL());
+    },
+    get C41() {
+      return C41 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C42 || CT.C42,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 85,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C47() {
+      return C47 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "mainAxisSize",
+        [_Location_column]: 21,
+        [_Location_line]: 31,
+        [_Location_file]: null
+      });
+    },
+    get C48() {
+      return C48 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 21,
+        [_Location_line]: 32,
+        [_Location_file]: null
+      });
+    },
+    get C46() {
+      return C46 = dart.constList([C47 || CT.C47, C48 || CT.C48], _LocationL());
+    },
+    get C45() {
+      return C45 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C46 || CT.C46,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 30,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C51() {
+      return C51 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 17,
+        [_Location_line]: 26,
+        [_Location_file]: null
+      });
+    },
+    get C52() {
+      return C52 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 17,
+        [_Location_line]: 27,
+        [_Location_file]: null
+      });
+    },
+    get C50() {
+      return C50 = dart.constList([C51 || CT.C51, C52 || CT.C52], _LocationL());
+    },
+    get C49() {
+      return C49 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C50 || CT.C50,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 25,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C55() {
+      return C55 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 25,
+        [_Location_file]: null
+      });
+    },
+    get C54() {
+      return C54 = dart.constList([C55 || CT.C55], _LocationL());
+    },
+    get C53() {
+      return C53 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C54 || CT.C54,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 24,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C58() {
+      return C58 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 24,
+        [_Location_file]: null
+      });
+    },
+    get C57() {
+      return C57 = dart.constList([C58 || CT.C58], _LocationL());
+    },
+    get C56() {
+      return C56 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C57 || CT.C57,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 23,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C61() {
+      return C61 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 23,
+        [_Location_file]: null
+      });
+    },
+    get C60() {
+      return C60 = dart.constList([C61 || CT.C61], _LocationL());
+    },
+    get C59() {
+      return C59 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C60 || CT.C60,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 22,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    },
+    get C64() {
+      return C64 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 9,
+        [_Location_line]: 20,
+        [_Location_file]: null
+      });
+    },
+    get C65() {
+      return C65 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 9,
+        [_Location_line]: 21,
+        [_Location_file]: null
+      });
+    },
+    get C66() {
+      return C66 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 22,
+        [_Location_file]: null
+      });
+    },
+    get C63() {
+      return C63 = dart.constList([C64 || CT.C64, C65 || CT.C65, C66 || CT.C66], _LocationL());
+    },
+    get C62() {
+      return C62 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C63 || CT.C63,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 19,
+        [_Location_file]: "file:///C:/Users/HP/AndroidStudioProjects/rameshiyengar/lib/widgets/contact.dart"
+      });
+    }
+  }, false);
+  contact.Contact = class Contact extends framework.StatefulWidget {
+    createState() {
+      return new contact._ContactState.new();
+    }
+  };
+  (contact.Contact.new = function(key, opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    contact.Contact.__proto__.new.call(this, {key: KeyN().as(key), $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = contact.Contact.prototype;
+  dart.addTypeTests(contact.Contact);
+  dart.addTypeCaches(contact.Contact);
+  dart.setMethodSignature(contact.Contact, () => ({
+    __proto__: dart.getMethods(contact.Contact.__proto__),
+    createState: dart.fnType(dart.legacy(contact._ContactState), [])
+  }));
+  dart.setLibraryUri(contact.Contact, L0);
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var C2;
+  var C1;
+  var C0;
+  var C5;
+  var C6;
+  var C7;
+  var C8;
+  var C4;
+  var C3;
+  var C11;
+  var C12;
+  var C13;
+  var C10;
+  var C9;
+  var C16;
+  var C17;
+  var C15;
+  var C14;
+  var C20;
+  var C21;
+  var C19;
+  var C18;
+  var C24;
+  var C25;
+  var C26;
+  var C27;
+  var C28;
+  var C29;
+  var C23;
+  var C22;
+  var C32;
+  var C33;
+  var C34;
+  var C31;
+  var C30;
+  var C37;
+  var C36;
+  var C35;
+  var C40;
+  var C39;
+  var C38;
+  var C43;
+  var C44;
+  var C42;
+  var C41;
+  var C47;
+  var C48;
+  var C46;
+  var C45;
+  var C51;
+  var C52;
+  var C50;
+  var C49;
+  var C55;
+  var C54;
+  var C53;
+  var C58;
+  var C57;
+  var C56;
+  var C61;
+  var C60;
+  var C59;
+  var C64;
+  var C65;
+  var C66;
+  var C63;
+  var C62;
+  contact._ContactState = class _ContactState extends framework.State$(dart.legacy(contact.Contact)) {
+    build(context) {
+      return new container.Container.new({color: constants.dark, padding: new edge_insets.EdgeInsets.symmetric({vertical: 75}), child: new basic.Center.new({child: new container.Container.new({child: new basic.Center.new({child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: JSArrayOfWidgetL().of([constants.kTitleWidget("Contact", {whiteColor: true}), new basic.SizedBox.new({height: 20, $creationLocationd_0dea112b090073317d4: C0 || CT.C0}), new basic.Row.new({mainAxisSize: flex.MainAxisSize.min, children: JSArrayOfWidgetL().of([new basic.Stack.new({children: JSArrayOfWidgetL().of([new ink_well.InkWell.new({onHover: dart.fn(value => {
+                              this.setState(dart.fn(() => {
+                                this.isHover = value;
+                              }, VoidToNull()));
+                            }, boolLToNull()), onTap: dart.fn(() => async.async(core.Null, function*() {
+                              yield extensions.modelLaunchUrl("https://www.google.com/maps/place/Ramesh+iyengar/@9.9016089,78.1197054,17z/data=!3m1!4b1!4m5!3m4!1s0x3b00c5997f51e5f3:0xd6f679ea5df3967a!8m2!3d9.9016089!4d78.1218941");
+                            }), VoidToFutureLOfNull()), child: new implicit_animations.AnimatedContainer.new({duration: new core.Duration.new({milliseconds: 300}), height: 290.0, width: 290.0, decoration: new box_decoration.BoxDecoration.new({image: new decoration_image.DecorationImage.new({image: new image_resolution.AssetImage.new("images/map.png"), fit: box_fit.BoxFit.cover}), borderRadius: new border_radius.BorderRadius.circular(4.0)}), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), $creationLocationd_0dea112b090073317d4: C9 || CT.C9}), new basic.Positioned.new({bottom: 0.0, left: 0.0, child: new implicit_animations.AnimatedContainer.new({duration: new core.Duration.new({milliseconds: 300}), padding: new edge_insets.EdgeInsets.all(10.0), height: 50.0, width: 290.0, decoration: new box_decoration.BoxDecoration.new({borderRadius: new border_radius.BorderRadius.circular(4.0), gradient: new gradient.LinearGradient.new({begin: alignment.Alignment.topCenter, end: alignment.Alignment.bottomCenter, colors: JSArrayOfColorL().of([colors.Colors.white.withOpacity(0.0), dart.test(this.isHover) ? colors.Colors.blue._get(100) : constants.white])})}), child: new basic.Align.new({alignment: alignment.Alignment.bottomCenter, child: new text.Text.new("View map", {style: google_fonts.GoogleFonts.lato({fontSize: 20, color: constants.black}), $creationLocationd_0dea112b090073317d4: C14 || CT.C14}), $creationLocationd_0dea112b090073317d4: C18 || CT.C18}), $creationLocationd_0dea112b090073317d4: C22 || CT.C22}), $creationLocationd_0dea112b090073317d4: C30 || CT.C30})]), $creationLocationd_0dea112b090073317d4: C35 || CT.C35}), new basic.SizedBox.new({width: 120 / 3, $creationLocationd_0dea112b090073317d4: C38 || CT.C38}), new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: JSArrayOfWidgetL().of([WidgetL().as(constants.iconTextTile("Ramesh iyengar", icons.Icons.person_outline_rounded)), WidgetL().as(constants.iconTextTile("+91 98421 53239", icons.Icons.phone)), WidgetL().as(constants.iconTextTile("www.sourashtraprohithasangam.com", icons.Icons.public)), WidgetL().as(constants.iconTextTile("Plot no. 'P', Kuberan street,\nSri mahalakshmi nagar,\nKathirvel theater complex,\nVillapuram,\nMadurai, Tamil Nadu, India.\nPin code - 625012", icons.Icons.location_on))]), $creationLocationd_0dea112b090073317d4: C41 || CT.C41})]), $creationLocationd_0dea112b090073317d4: C45 || CT.C45})]), $creationLocationd_0dea112b090073317d4: C49 || CT.C49}), $creationLocationd_0dea112b090073317d4: C53 || CT.C53}), $creationLocationd_0dea112b090073317d4: C56 || CT.C56}), $creationLocationd_0dea112b090073317d4: C59 || CT.C59}), $creationLocationd_0dea112b090073317d4: C62 || CT.C62});
+    }
+  };
+  (contact._ContactState.new = function() {
+    this.isHover = false;
+    contact._ContactState.__proto__.new.call(this);
+    ;
+  }).prototype = contact._ContactState.prototype;
+  dart.addTypeTests(contact._ContactState);
+  dart.addTypeCaches(contact._ContactState);
+  dart.setMethodSignature(contact._ContactState, () => ({
+    __proto__: dart.getMethods(contact._ContactState.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)])
+  }));
+  dart.setLibraryUri(contact._ContactState, L0);
+  dart.setFieldSignature(contact._ContactState, () => ({
+    __proto__: dart.getFields(contact._ContactState.__proto__),
+    isHover: dart.fieldType(dart.legacy(core.bool))
+  }));
+  dart.trackLibraries("packages/rameshiyengar/widgets/contact.dart", {
+    "package:rameshiyengar/widgets/contact.dart": contact
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["contact.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAQiC;IAAe;;kCAFhC;;AAAM,6DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAUT;AAExB,YAAO,qCACI,yBACa,6DACb,6BACE,oCACE,6BACE,0CACkC,yCAC7B,uBACR,uBAAa,wBAAuB,QACpC,2FACA,iCAC6B,iCACjB,uBACR,+BACY,uBACR,mCACW,QAAC;AAGN,8BAFF,cAAS;AACQ,gCAAf,eAAU,KAAK;;sDAGZ;AAAwM,8BAA7L,MAAM,0BAAe;4BAA0K,mCAC1M,yDACI,qCAAuB,eACxB,cACD,mBACK,6CACD,iDACE,oCACH,wBACQ,sCAED,wCAAS,sHAG9B,kCACU,WACF,YACC,yDACI,qCAAuB,gBACZ,+BAAI,eAChB,aACD,mBACK,oDAEK,wCAAS,gBACZ,wCACW,oCACF,0CACP,sBACC,AACF,gCAAY,gBACjB,gBAAgB,AAAI,wBAAC,OAAM,8BAE9B,gCACkB,yCACd,kBAAK,oBACW,oDAER,kTAK3B,+BAAyB,MAAE,4DAC3B,0CAEuB,yCACT,oCACR,uBAAa,kBACH,mDACV,uBACI,mBAAyB,kCAC7B,uBACI,oCACM,mCACV,uBACI,kJACM;IASpC;;;IA7FK,eAAU;;;EA8FjB","file":"../../../../../../packages/rameshiyengar/widgets/contact.dart.lib.js"}');
+  // Exports:
+  return {
+    widgets__contact: contact
+  };
+}));
+
+//# sourceMappingURL=contact.dart.lib.js.map
